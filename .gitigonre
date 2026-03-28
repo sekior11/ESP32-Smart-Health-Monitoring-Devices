@@ -1,0 +1,26 @@
+# --- ESP-IDF 专用 ---
+# 忽略编译生成的目录 
+build/
+build_codex/
+
+# 忽略自动生成的配置文件 backup
+sdkconfig.old
+
+# 忽略包含本地工具链路径的文件 (如果存在)
+dependencies.lock
+
+# --- IDE 专用 (VS Code) ---
+# 通常建议忽略 .vscode 目录，除非你想和团队分享特定的任务配置。
+# 其中的 c_cpp_properties.json 经常包含本地绝对路径，不应提交。
+.vscode/
+
+# 忽略 clangd 语言服务器目录
+.clangd
+
+# --- 操作系统专用 ---
+.DS_Store
+Thumbs.db
+
+# --- 临时文件 ---
+*.tmp
+*.bak

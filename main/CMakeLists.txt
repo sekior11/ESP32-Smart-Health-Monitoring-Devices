@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "small192225b3aIE1761564141.c"
+        "my_cloud.c"
+        "my_font_16.c"
+        "../driver/driver.c"
+        "../business/business.c"
+        "../ui/ui.c"
+    INCLUDE_DIRS 
+        "."
+        "../driver"
+        "../business"
+        "../ui"
+    REQUIRES 
+        lv_porting 
+        lvgl 
+        esp_timer
+        esp_http_client 
+        protocol_examples_common 
+        nvs_flash
+)
