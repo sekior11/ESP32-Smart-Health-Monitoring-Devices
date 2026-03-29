@@ -4,4 +4,10 @@
 各层次之间关系：
 <img width="2816" height="1536" alt="cd93a724161619e10a75b8f986d4be36" src="https://github.com/user-attachments/assets/d4465b5b-4336-47d5-aaa1-3b1af0c600a9" />
 
+视频演示地址：
+https://www.bilibili.com/video/BV1oPXjBuErx/?spm_id_from=333.1387.homepage.video_card.click
+
+注意：
+本项目启动前需连接有WIFI，不然会导致屏幕花屏或死机
+
 
